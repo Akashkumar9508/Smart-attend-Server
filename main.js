@@ -10,7 +10,7 @@ const Message = require('./models/message');
 dotenv.config();
 
 app.use(cors({
-    origin: 'https://smart-attend-clint.vercel.app/',
+    origin: 'https://smart-attend-clint.vercel.app',
     credentials: true
 }));
 
